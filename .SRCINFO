@@ -1,7 +1,7 @@
 pkgbase = python-crc32c
 	pkgdesc = Implementation of the crc32c algorithm in hardware and software
 	pkgver = 2.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/ICRAR/crc32c
 	arch = any
 	license = LGPL2

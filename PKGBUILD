@@ -19,7 +19,7 @@ _relname="crc32c"
 
 pkgname="${_langname}-${_relname}"
 pkgver=2.2
-pkgrel=1
+pkgrel=2
 pkgdesc="Implementation of the crc32c algorithm in hardware and software"
 arch=(
 	"any"
@@ -45,5 +45,6 @@ sha512sums=(
 
 package() {
 	cd "${srcdir}/${_relname}-${pkgver}"
+
 	python setup.py install --optimize=1 --root="${pkgdir}"
 }
